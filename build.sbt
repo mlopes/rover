@@ -2,8 +2,8 @@ ThisBuild / useCoursier := true
 
 ThisBuild / scalaVersion     := "3.1.0"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
-ThisBuild / organization     := "com.example"
-ThisBuild / organizationName := "example"
+ThisBuild / organization     := "com.rover"
+ThisBuild / organizationName := "rover"
 
 lazy val root = (project in file("."))
   .settings(
